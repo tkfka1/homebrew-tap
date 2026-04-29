@@ -1,10 +1,10 @@
 class HkclawLite < Formula
   desc "Discord/Telegram/KakaoTalk AI agent runtime with a local web admin"
   homepage "https://github.com/tkfka1/hkclaw-lite"
-  url "https://registry.npmjs.org/hkclaw-lite/-/hkclaw-lite-1.0.14.tgz"
-  sha256 "ea4c9709a3c8a51bfc327236e3ebf3834af54ee6ac990d070886301a75fe5b6a"
+  url "https://registry.npmjs.org/hkclaw-lite/-/hkclaw-lite-1.0.15.tgz"
+  sha256 "5c4ae4a4ff310406d418ca3b4b3736c62389c45dee195bb4b5d7ba14280e8044"
   license "MIT"
-  version "1.0.14"
+  version "1.0.15"
 
   depends_on "node"
 
@@ -19,7 +19,7 @@ class HkclawLite < Formula
   end
 
   service do
-    run [opt_bin/"hkclaw-lite", "--root", var/"hkclaw-lite", "admin", "--host", "0.0.0.0", "--port", "5687"]
+    run [opt_bin/"hkclaw-lite", "--root", var/"hkclaw-lite", "admin", "--host", "0.0.0.0", "--port", "5687", "--foreground"]
     working_dir var/"hkclaw-lite"
     keep_alive true
     log_path var/"log/hkclaw-lite.log"
