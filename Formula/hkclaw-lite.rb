@@ -1,10 +1,10 @@
 class HkclawLite < Formula
   desc "Discord/Telegram/KakaoTalk AI agent runtime with a local web admin"
   homepage "https://github.com/tkfka1/hkclaw-lite"
-  url "https://registry.npmjs.org/hkclaw-lite/-/hkclaw-lite-1.0.21.tgz"
-  sha256 "b325b583e92c9c51fbabd47ee1a103e2558ee1389a980a8c4a561cfedc287795"
+  url "https://registry.npmjs.org/hkclaw-lite/-/hkclaw-lite-1.0.22.tgz"
+  sha256 "146d9f2be39a49e6f3be7cbfb1cce02a5d1b1c70c26a448d3438a90eea48f6d2"
   license "MIT"
-  version "1.0.21"
+  version "1.0.22"
 
   depends_on "node"
 
